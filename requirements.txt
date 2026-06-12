@@ -1,0 +1,14 @@
+fastapi>=0.111
+uvicorn[standard]>=0.30
+langchain>=0.3
+langchain-openai>=0.2
+langgraph>=0.2.60
+langgraph-checkpoint-postgres>=2.0
+psycopg[binary]>=3.2
+requests>=2.32
+apscheduler>=3.10
+python-dotenv>=1.0
+# GSC + GA4 (only needed once the Google service account is configured)
+google-api-python-client>=2.140
+google-auth>=2.32
+google-analytics-data>=0.18
